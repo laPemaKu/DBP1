@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EF5EB90-5AB3-35AA-6E7A-8F8605CEBC33" name="NARUCENI_ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:42:04 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_artikl" id="5C460EFD-BCDD-22AF-17A9-5B85D12C020D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:42:52 UTC</createdTime>
+<generatorID>743F2593-CC69-EA18-8FB2-A7256D507C5F</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>ED2F67A0-BF8A-64DB-14B4-07AE3ACA3DBE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_narudzba" id="4C99DD9C-96E3-239F-2E19-1B9C0F17E8C3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:43:09 UTC</createdTime>
+<generatorID>89CE4F00-8340-FC72-85FF-286975381722</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>A08CFF36-276A-F49E-9FF3-2BB8224D6766</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="narucena_kolicina" id="6082DED5-2E26-B729-9DD2-1292620311E4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:43:30 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isporucena_kolicina" id="E3DCBC7F-251F-9881-44BD-13F0302D0D19">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:43:48 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="008B38B4-39A8-2FE2-EC92-481A5730B15B" name="NARUCENI_ARTIKL PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:42:52 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C460EFD-BCDD-22AF-17A9-5B85D12C020D</attributeRef>
+<attributeRef>4C99DD9C-96E3-239F-2E19-1B9C0F17E8C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

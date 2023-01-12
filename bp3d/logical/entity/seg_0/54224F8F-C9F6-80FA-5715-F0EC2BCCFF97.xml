@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54224F8F-C9F6-80FA-5715-F0EC2BCCFF97" name="TIM">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:50:25 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tim" id="A7FCBB31-5B4B-A144-7130-4D1116B68555">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:50:36 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="E2B9F446-75CA-57DE-4B71-80A1D79A135A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:50:42 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_igraca" id="53F7E612-6F43-3DB7-68DB-E5B2EA9D3FD2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:50:50 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predstavnik_tima" id="5E70DDAD-A2BE-8AB4-82A0-37C1A398FD40">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:51:05 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popust" id="0A0010DF-BD01-339E-8D5A-A3D01FE089E1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:51:21 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="4D0A4234-2BEA-8647-08BE-FF89313D3A73">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:52:05 UTC</createdTime>
+<generatorID>7185E5BC-5A88-59ED-B25B-C3AB3FE650DE</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>9C76F0E7-4C6F-42E5-1E1A-4B56CF4A244F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9760D0B-4439-ADF0-0717-E86F1D87B4B7" name="TIM PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:50:40 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7FCBB31-5B4B-A144-7130-4D1116B68555</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3239983F-8BD5-0592-F76E-6A4C9519E71A" name="PRACENJE_CIJENA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:45:08 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PCA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum" id="650A4A1E-D940-FC95-27D2-F436831597D0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:45:29 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme" id="C3993EF3-8972-CEC9-2E86-A65D346FD0D3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:45:34 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="9568CD94-621D-F22C-EAF6-F02167D2F2CA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:45:40 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka" id="5CA152D8-F96C-4F93-0FAD-2921A0499305">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:45:54 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_isteka" id="E8FFD338-E696-5564-8375-DFA7F2AADBB8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:46:04 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_artikl" id="3F7F7E6A-FE9C-FB20-6DB9-4230F12A8A98">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:46:42 UTC</createdTime>
+<generatorID>8316D4EE-6ADF-9B8D-D5BF-70AFB68C4A91</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>ED2F67A0-BF8A-64DB-14B4-07AE3ACA3DBE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E70BCE89-022B-0490-EB18-6A6FCDB8CCF8" name="PRACENJE_CIJENA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:45:33 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>650A4A1E-D940-FC95-27D2-F436831597D0</attributeRef>
+<attributeRef>C3993EF3-8972-CEC9-2E86-A65D346FD0D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

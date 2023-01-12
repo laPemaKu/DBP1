@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="700AC3D7-9DA5-52DA-414B-83D18DC2FE47" name="ADRESA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:05 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ADR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_adrese" id="2DAE6EEF-80F6-6CEC-F273-6296614F40F8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:27 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="BE08AE0E-6D0A-969A-4964-94A024BA9583">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:36 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="1DFC893B-C3E3-3B9D-ACAE-4F813DEF1B48">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:41 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupca" id="E9389D59-A321-3243-76BD-FD6CE40FB52D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:31:06 UTC</createdTime>
+<generatorID>B8FB2074-E9CA-BC88-59E2-59C65ED5E303</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>54F2A83C-01E8-B5BF-B1EA-A76D979F7CC5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="CE5E0F07-6B40-B98F-2B2C-5D31D677FBA6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:31:50 UTC</createdTime>
+<generatorID>06F6A43D-8A44-E4A6-A94C-65D67E1ECEE2</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>33C895D9-A2D0-E354-2041-791A67C8A115</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postanski_broj" id="62467A78-CB6E-0A72-F014-8D8C46DD3B63">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:36 UTC</createdTime>
+<generatorID>EA14005D-4464-8054-27F7-5E5C18AA2E4C</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>249A2F3B-82D9-DF43-8906-D11935F4484E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F7A4107-646B-45D6-CF2D-BD2EF276D979" name="ADRESA_KUPCA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:35 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DAE6EEF-80F6-6CEC-F273-6296614F40F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

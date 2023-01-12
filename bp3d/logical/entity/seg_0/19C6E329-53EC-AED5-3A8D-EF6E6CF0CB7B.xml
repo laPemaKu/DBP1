@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19C6E329-53EC-AED5-3A8D-EF6E6CF0CB7B" name="PPREDSTAVNICI_TIMOVA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:02:32 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E616E248-2E46-C50B-9ADC-BCEB43FDD87A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PTA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9C76F0E7-4C6F-42E5-1E1A-4B56CF4A244F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:03:19 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tim" id="002823BB-BD54-7443-5B7E-91C0DCA04F11">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:52:10 UTC</createdTime>
+<generatorID>7185E5BC-5A88-59ED-B25B-C3AB3FE650DE</generatorID>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<referedAttribute>A7FCBB31-5B4B-A144-7130-4D1116B68555</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DE8B0A9-EA52-C54D-57F6-2848FE402ECB" name="PPREDSTAVNICI_TIMOVA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:03:30 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C76F0E7-4C6F-42E5-1E1A-4B56CF4A244F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

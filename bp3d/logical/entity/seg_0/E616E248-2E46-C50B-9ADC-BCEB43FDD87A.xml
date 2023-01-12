@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E616E248-2E46-C50B-9ADC-BCEB43FDD87A" name="KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:35 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>KPC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_kupca" id="54F2A83C-01E8-B5BF-B1EA-A76D979F7CC5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:44 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="51D98CAE-00D4-1C02-F522-4E5586EA47E4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:09:38 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="29B6673B-5971-A2DA-816C-6B1D45E21D54">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:01:46 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="75C7ABC8-DD59-D8AD-85A2-3FADD04ECD04">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:01:56 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_telefona" id="8910FE8E-B852-8B3F-AF85-73CB7EC62315">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:02:02 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos_kupnje" id="5E692173-62AB-0197-997B-2F05C75C9386">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:02:15 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4BBF24A-E83C-6651-F4DC-5D4F658156CC" name="Kupac PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:45 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54F2A83C-01E8-B5BF-B1EA-A76D979F7CC5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FAA1B8C5-9841-C835-B9DF-B6E1B99E48C0" name="email">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:10:12 UTC</createdTime>
+<ownerDesignName>bp3d</ownerDesignName>
+<engineerTo>
+<item key="46BA07FB-BCAF-A7F7-9F43-03C8026C80E8" value="true"/>
+</engineerTo>
+<newElementsIDs>51D98CAE-00D4-1C02-F522-4E5586EA47E4</newElementsIDs>
+<usedAttributes>
+<attributeRef>51D98CAE-00D4-1C02-F522-4E5586EA47E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
